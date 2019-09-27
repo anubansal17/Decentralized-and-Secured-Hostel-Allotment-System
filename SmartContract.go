@@ -1,4 +1,4 @@
- Smart Contract used in the project -
+Smart Contract used in the project -
 package main
 import (
 "fmt"
