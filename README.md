@@ -1,7 +1,7 @@
 # Decentralized-and-Secured-Hostel-Allotment-System-for-NITTTR-Chandigarh (MHRD, Govt. of India)
 ## Highlights:
 An Enterprise Blockchain based Project - 
-- *Hyperledger Fabric* was used to provide the *blockchain* back-end to the website and a distributed file system, *Interplanetary File System (IPFS)* was used to provide the utmost security to the data involved and *Golang* was used for implementation of Smart Contracts
+- *Hyperledger Fabric* was used to provide the *Blockchain* back-end to the website and a distributed file system, *Interplanetary File System (IPFS)* was used to provide the utmost security to the data involved and *Golang* was used for implementation of Smart Contracts
 - Server hardening was ensured by hosting the whole project on *Apache Framework*
 
 # PROJECT
