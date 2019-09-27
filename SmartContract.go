@@ -1,4 +1,4 @@
-Smart Contract used in the project -
+// Smart Contract used in the project -
 package main
 import (
 "fmt"
@@ -204,8 +204,8 @@ fmt.Printf("Error starting SmartContract chaincode: %s", err)
 }
 }
 
-Code used to for transactions in the project -
-a) For making query in the blockchain:-
+// Code used to for transactions in the project -
+// a) For making query in the blockchain:-
 package blockchain
 import (
 "fmt"
@@ -227,7 +227,8 @@ return "", fmt.Errorf("failed to query: %v", err)
 }
 return string(response.Payload), nil
 }
-b) For making invoke in the blockchain:-
+
+// b) For making invoke in the blockchain:-
 package blockchain
 import (
 "fmt"
