@@ -1,9 +1,10 @@
-# Decentralized-and-Secured-Hostel-Allotment-System-for-NITTTR-Chandigarh
-Successfully made Hostel Allotment System for NITTTR, Chandigarh (Ministry of HRD, Govt. of India), an Enterprise Blockchain based Project.
+# Decentralized-and-Secured-Hostel-Allotment-System-for-NITTTR-Chandigarh (MHRD, Govt. of India)
+## Highlights:
+An Enterprise Blockchain based Project - 
 - *Hyperledger Fabric* was used to provide the *blockchain* back-end to the website and a distributed file system, *Interplanetary File System (IPFS)* was used to provide the utmost security to the data involved and *Golang* was used for implementation of Smart Contracts
 - Server hardening was ensured by hosting the whole project on *Apache Framework*
 
-# PROJECT - HOSTEL ALLOTMENT SYSTEM USING HYPERLEDGER FABRIC
+# PROJECT
 In *Hyperledger*, transactions are submitted via an interface to the ordering service. This service collects transactions based on the consensus algorithm and configuration policy, which may define a time limit or specify the number of transactions allowed. Most of the time, for efficiency reasons, instead of outputting individual transactions, the ordering service will group multiple transactions into single block. In this case, the ordering service must impose and convey a deterministic ordering of the transactions within each block.
 
 ## Advantages of using a Hyperledger based application:<br>
@@ -34,9 +35,9 @@ Now that we have an overview of how the application works let us take a closer l
 ### Hyperledger:<br>
 *Hyperledger* is a Linux foundation project to produce an open *Blockchain* platform that is ready for business. It provides implementation of shared ledger, smart contracts, privacy and consensus mechanisms.<br>
 
-### Process Flow :
+## Process Flow :
 In our model follows the following structure:<br>
-Participants:<br>
+### Participants:<br>
 a) **Warden** -The warden of each hostel in the university network.<br>
 b) **Head of Department (HOD)** - Head of the department in the university where student is currently enrolled.<br>
 c) **Clerk** - Clerk of the each hostel issuing fee receipt to the students on successful payment of hostel fees.<br>
@@ -47,7 +48,7 @@ Person - Holds the person(Student, Warden, Clerk, HOD) details.
 a) **Invoke** — Executed when any person in the university registers himself/herself in the university network and when any change is made to the details.<br>
 b) **Query** — Executed when any person requests to see the details to check the current status of the allocation process.<br>
 
-### A quick walkthrough of the project:
+## A quick walkthrough of the project:
 1. First of all, participants will register themselves in the web app to become a part of the network. In the backend, invoke function will be called to make a new entry in the *Blockchain* Ledger (Refer to the code given in SmartContract.go). There would be different predefined formats for registration IDs of authority members and students.<br>
 2. If a student registers himself/herself in the network, the request will be sent to the warden of the respective hostel to check the hostel availability for the student.<br>
 3. After the verification done by the warden, the request will be sent to the head of the department (HOD) to verify the student enrollment in the department.<br>
