@@ -8,7 +8,7 @@ An Enterprise Blockchain based Project -
 In *Hyperledger*, transactions are submitted via an interface to the ordering service. This service collects transactions based on the consensus algorithm and configuration policy, which may define a time limit or specify the number of transactions allowed. Most of the time, for efficiency reasons, instead of outputting individual transactions, the ordering service will group multiple transactions into single block. In this case, the ordering service must impose and convey a deterministic ordering of the transactions within each block.
 
 ## Advantages of using a Hyperledger based application:<br>
-● Private *Blockchain* hence student records are not in public domain<br>
+● Private *Blockchain*, hence student records are not in public domain<br>
 ● Access levels can be customized as per requirement. Students won’t be able to allocate rooms to themselves<br>
 ● Beneficiary will only see the details of the diploma once it’s been issued<br>
 ● As *Hyperledger* is not coin (“token”) based *Blockchain*, the environment is less complex to develop<br>
