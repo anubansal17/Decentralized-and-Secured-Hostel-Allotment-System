@@ -16,7 +16,7 @@ In Hyperledger, transactions are submitted via an interface to the ordering serv
 
 ## How it Works -
 The application has three main components-
-1) Front End
+1) Frontend
 2) Backend :-<br>
 a) Interplanetary File System (“IPFS”)<br>
 b) Hyperledger Fabric<br>
