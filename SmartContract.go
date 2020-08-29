@@ -1,14 +1,14 @@
 // Smart Contract used in the project -
 package main
-import (
-"fmt"
-"time"
-"bytes"
-"strings"
-"strconv"
-"encoding/json"
-"github.com/hyperledger/fabric/core/chaincode/shim"
-"github.com/hyperledger/fabric/protos/peer"
+    import (
+        "fmt"
+        "time"
+        "bytes"
+        "strings"
+        "strconv"
+        "encoding/json"
+        "github.com/hyperledger/fabric/core/chaincode/shim"
+        "github.com/hyperledger/fabric/protos/peer"
 )
 // SimpleAsset implements a simple chaincode to manage an asset
 type SmartContract struct {
